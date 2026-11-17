@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 sriram688
+Copyright (c) 2026 PlantGuard AI Contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+DISCLAIMER:
+PlantGuard AI is developed exclusively for educational, research, and technical portfolio
+demonstration purposes. The model predictions, severity indices, and agricultural care
+recommendations provided by this system do NOT constitute a guaranteed professional,
+pathological, or certified agricultural diagnosis. Users should seek certified extension
+officers or plant pathologists for mission-critical commercial farming decisions.

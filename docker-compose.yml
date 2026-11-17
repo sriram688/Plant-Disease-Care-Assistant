@@ -1,0 +1,21 @@
+services:
+  plantguard-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: plantguard-ai-service
+    ports:
+      - "8000:8000"
+    environment:
+      - HOST=0.0.0.0
+      - PORT=8000
+      - DATABASE_URL=sqlite:///backend/data/plantguard.db
+    volumes:
+      - plantguard_data:/app/backend/data
+      - plantguard_uploads:/app/backend/uploads
+      - ./models:/app/models
+    restart: unless-stopped
+
+volumes:
+  plantguard_data:
+  plantguard_uploads:
