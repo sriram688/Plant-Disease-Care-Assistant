@@ -1,0 +1,200 @@
+{
+  "model_name": "plantguard_mobilenetv2.keras",
+  "total_test_samples": 90,
+  "classes_count": 9,
+  "accuracy": 0.4556,
+  "accuracy_percentage": 45.56,
+  "precision_macro": 0.4659,
+  "recall_macro": 0.4556,
+  "f1_macro": 0.4034,
+  "precision_weighted": 0.4659,
+  "recall_weighted": 0.4556,
+  "f1_weighted": 0.4034,
+  "confusion_matrix": [
+    [
+      9,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      7,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      10,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      5
+    ],
+    [
+      3,
+      0,
+      0,
+      0,
+      0,
+      7,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      3,
+      0,
+      6,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      9,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "class_labels": [
+    "pepper_bacterial_spot",
+    "pepper_healthy",
+    "potato_early_blight",
+    "potato_healthy",
+    "potato_late_blight",
+    "tomato_bacterial_spot",
+    "tomato_early_blight",
+    "tomato_healthy",
+    "tomato_late_blight"
+  ],
+  "per_class_metrics": {
+    "pepper_bacterial_spot": {
+      "plant": "Pepper",
+      "disease": "Bacterial Spot",
+      "precision": 0.75,
+      "recall": 0.9,
+      "f1_score": 0.8182,
+      "support": 10
+    },
+    "pepper_healthy": {
+      "plant": "Pepper",
+      "disease": "Healthy",
+      "precision": 0.3889,
+      "recall": 0.7,
+      "f1_score": 0.5,
+      "support": 10
+    },
+    "potato_early_blight": {
+      "plant": "Potato",
+      "disease": "Early Blight",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "support": 10
+    },
+    "potato_healthy": {
+      "plant": "Potato",
+      "disease": "Healthy",
+      "precision": 0.1818,
+      "recall": 0.2,
+      "f1_score": 0.1905,
+      "support": 10
+    },
+    "potato_late_blight": {
+      "plant": "Potato",
+      "disease": "Late Blight",
+      "precision": 0.3571,
+      "recall": 0.5,
+      "f1_score": 0.4167,
+      "support": 10
+    },
+    "tomato_bacterial_spot": {
+      "plant": "Tomato",
+      "disease": "Bacterial Spot",
+      "precision": 0.875,
+      "recall": 0.7,
+      "f1_score": 0.7778,
+      "support": 10
+    },
+    "tomato_early_blight": {
+      "plant": "Tomato",
+      "disease": "Early Blight",
+      "precision": 0.4737,
+      "recall": 0.9,
+      "f1_score": 0.6207,
+      "support": 10
+    },
+    "tomato_healthy": {
+      "plant": "Tomato",
+      "disease": "Healthy",
+      "precision": 1.0,
+      "recall": 0.1,
+      "f1_score": 0.1818,
+      "support": 10
+    },
+    "tomato_late_blight": {
+      "plant": "Tomato",
+      "disease": "Late Blight",
+      "precision": 0.1667,
+      "recall": 0.1,
+      "f1_score": 0.125,
+      "support": 10
+    }
+  },
+  "limitations": "Model performance may degrade in unconstrained field environments with severe shadow occlusion, dual coinfections, or non-foliar diseases. Evaluations reflect independent holdout test data."
+}
